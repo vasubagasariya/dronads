@@ -1,0 +1,1518 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Read the DRON ADS blog for practical insights on outdoor advertising, transit branding, digital campaigns, and brand growth." />
+  <meta name="keywords"
+    content="DRON ADS blog, advertising insights, outdoor advertising blog, digital marketing blog, branding tips Gujarat" />
+  <meta name="author" content="DRON ADS Pvt. Ltd." />
+  <meta name="theme-color" content="#E8842A" />
+  <meta name="robots" content="index, follow" />
+  <title>Blog | DRON ADS Pvt. Ltd.</title>
+  <link rel="canonical" href="https://www.dronads.com/blog.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Blog | DRON ADS Pvt. Ltd." />
+  <meta property="og:description"
+    content="Advertising insights, campaign planning tips, and brand growth ideas from DRON ADS." />
+  <meta property="og:url" content="https://www.dronads.com/blog.html" />
+  <meta property="og:image" content="https://www.dronads.com/assets/images/logo.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem("dronads-theme");
+      const prefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)",
+      ).matches;
+      let theme = "light";
+      if (savedTheme) {
+        theme = savedTheme;
+      } else if (prefersDark) {
+        theme = "dark";
+      }
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.dronads.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://www.dronads.com/blog.html"
+          }
+        ]
+      }
+    </script>
+
+  <style>
+    /* ===== BLOG PAGE PREMIUM STYLES ===== */
+
+    /* --- Page Banner Enhanced --- */
+    .page-banner {
+      position: relative;
+      min-height: 420px;
+      padding: 140px 0 100px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .page-banner__bg-pattern {
+      position: absolute;
+      inset: 0;
+      background-image: var(--page-banner-image);
+      background-size: cover;
+      background-position: center;
+      transform: scale(1.04);
+      transition: transform 8s ease;
+    }
+
+    .page-banner__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(105deg,
+          rgba(7, 10, 20, 0.9) 0%,
+          rgba(10, 16, 32, 0.72) 50%,
+          rgba(232, 132, 42, 0.18) 100%);
+      z-index: 1;
+    }
+
+    /* Decorative accent lines */
+    .page-banner__decor {
+      position: absolute;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .page-banner__decor--ring {
+      right: 8%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 320px;
+      height: 320px;
+      border: 1px solid rgba(232, 132, 42, 0.18);
+      border-radius: 50%;
+    }
+
+    .page-banner__decor--ring2 {
+      right: 11%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 200px;
+      height: 200px;
+      border: 1px dashed rgba(232, 132, 42, 0.12);
+      border-radius: 50%;
+    }
+
+    .page-banner__decor--dot {
+      right: 18%;
+      top: 30%;
+      width: 8px;
+      height: 8px;
+      background: var(--primary);
+      border-radius: 50%;
+      opacity: 0.7;
+    }
+
+    .page-banner .container {
+      position: relative;
+      z-index: 3;
+    }
+
+    .page-banner__eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--primary-light);
+    }
+
+    .page-banner__eyebrow::before {
+      content: "";
+      width: 32px;
+      height: 2px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+
+    .page-banner__title {
+      font-size: clamp(44px, 6vw, 72px);
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 20px;
+    }
+
+    .page-banner__title span {
+      color: transparent;
+      -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.5);
+    }
+
+    .page-banner__subtitle {
+      font-size: 17px;
+      color: rgba(255, 255, 255, 0.72);
+      max-width: 540px;
+      line-height: 1.75;
+      margin-bottom: 28px;
+    }
+
+    .page-banner__breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .page-banner__breadcrumb a {
+      color: rgba(255, 255, 255, 0.55);
+      transition: color 0.2s;
+    }
+
+    .page-banner__breadcrumb a:hover {
+      color: var(--primary-light);
+    }
+
+    .page-banner__breadcrumb i {
+      font-size: 10px;
+      opacity: 0.5;
+    }
+
+    .page-banner__breadcrumb span:last-child {
+      color: var(--primary-light);
+    }
+
+    /* ===== BLOG MAIN SECTION ===== */
+    .blog-premium {
+      background: var(--bg-primary);
+      padding: 80px 0 100px;
+    }
+
+    /* Category Filter Bar */
+    .blog-filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 56px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .filter-label {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-light);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-right: 8px;
+    }
+
+    .filter-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--text-secondary);
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      cursor: pointer;
+      transition: all 0.22s ease;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .filter-btn .count {
+      font-size: 11px;
+      opacity: 0.7;
+    }
+
+    /* ===== HERO FEATURED CARD ===== */
+    .blog-hero-feature {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      min-height: 500px;
+      border-radius: 24px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 32px 80px rgba(26, 26, 46, 0.1);
+      margin-bottom: 32px;
+      transition:
+        box-shadow 0.3s ease,
+        transform 0.3s ease;
+    }
+
+    .blog-hero-feature:hover {
+      box-shadow: 0 48px 100px rgba(26, 26, 46, 0.16);
+      transform: translateY(-4px);
+    }
+
+    .bhf__media {
+      position: relative;
+      overflow: hidden;
+      background: #1a2036;
+    }
+
+    .bhf__media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.7s ease;
+    }
+
+    .blog-hero-feature:hover .bhf__media img {
+      transform: scale(1.05);
+    }
+
+    .bhf__media-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg,
+          rgba(232, 132, 42, 0.22) 0%,
+          transparent 60%);
+    }
+
+    .bhf__badge {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 16px;
+      border-radius: 999px;
+      background: var(--primary);
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      box-shadow: 0 4px 16px rgba(232, 132, 42, 0.4);
+    }
+
+    .bhf__body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 52px 48px;
+      background: var(--bg-card);
+    }
+
+    .bhf__category {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--primary);
+    }
+
+    .bhf__category::before {
+      content: "";
+      width: 24px;
+      height: 2px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+
+    .bhf__title {
+      font-size: clamp(28px, 3vw, 38px);
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.12;
+      letter-spacing: -0.03em;
+      margin-bottom: 18px;
+    }
+
+    .bhf__excerpt {
+      font-size: 16px;
+      color: var(--text-secondary);
+      line-height: 1.82;
+      margin-bottom: 32px;
+    }
+
+    .bhf__meta {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 28px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .bhf__meta-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--text-light);
+    }
+
+    .bhf__meta-item i {
+      color: var(--primary);
+      font-size: 12px;
+    }
+
+    .bhf__link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--primary);
+      transition: gap 0.2s ease;
+    }
+
+    .bhf__link:hover {
+      gap: 16px;
+      color: var(--primary-dark);
+    }
+
+    .bhf__link i {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(232, 132, 42, 0.12);
+      transition: background 0.2s ease;
+    }
+
+    .bhf__link:hover i {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    /* ===== TWO SECONDARY CARDS ===== */
+    .blog-secondary-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 56px;
+    }
+
+    .bsc {
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      background: var(--bg-card);
+      box-shadow: 0 8px 30px rgba(26, 26, 46, 0.07);
+      transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bsc:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 60px rgba(26, 26, 46, 0.12);
+    }
+
+    .bsc__media {
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #1a2036;
+    }
+
+    .bsc__media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .bsc:hover .bsc__media img {
+      transform: scale(1.06);
+    }
+
+    .bsc__body {
+      padding: 28px 28px 26px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bsc__tag {
+      display: inline-block;
+      margin-bottom: 14px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--primary);
+    }
+
+    .bsc__title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+      flex: 1;
+    }
+
+    .bsc__excerpt {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin-bottom: 20px;
+    }
+
+    .bsc__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 16px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .bsc__read-time {
+      font-size: 12px;
+      color: var(--text-light);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .bsc__arrow {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--bg-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+      font-size: 13px;
+      transition: all 0.2s ease;
+    }
+
+    .bsc:hover .bsc__arrow {
+      background: var(--primary);
+      color: #ffffff;
+    }
+
+    /* ===== SECTION DIVIDER ===== */
+    .blog-section-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 32px;
+    }
+
+    .blog-section-head__left .kicker {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+
+    .blog-section-head__left h2 {
+      font-size: clamp(24px, 2.5vw, 32px);
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+    }
+
+    .blog-section-head .view-all {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--primary);
+      white-space: nowrap;
+      padding: 10px 22px;
+      border: 1px solid rgba(232, 132, 42, 0.3);
+      border-radius: 999px;
+      transition: all 0.22s ease;
+    }
+
+    .blog-section-head .view-all:hover {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    /* ===== CARD GRID (3 cols) ===== */
+    .blog-card-grid-premium {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .bcp-card {
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      background: var(--bg-card);
+      box-shadow: 0 4px 24px rgba(26, 26, 46, 0.06);
+      transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    }
+
+    .bcp-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 56px rgba(26, 26, 46, 0.12);
+    }
+
+    .bcp-card__media {
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+      background: #1a2036;
+      position: relative;
+    }
+
+    .bcp-card__media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .bcp-card:hover .bcp-card__media img {
+      transform: scale(1.07);
+    }
+
+    .bcp-card__cat-badge {
+      position: absolute;
+      bottom: 14px;
+      left: 14px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: rgba(15, 18, 32, 0.75);
+      backdrop-filter: blur(8px);
+      font-size: 11px;
+      font-weight: 600;
+      color: #fff;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .bcp-card__body {
+      padding: 26px 24px 22px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bcp-card__title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.28;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+      flex: 1;
+    }
+
+    .bcp-card__excerpt {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.72;
+      margin-bottom: 22px;
+    }
+
+    .bcp-card__link {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+      padding-bottom: 3px;
+      border-bottom: 1.5px solid var(--border-color);
+      width: fit-content;
+      transition: all 0.2s ease;
+    }
+
+    .bcp-card__link i {
+      font-size: 11px;
+      transition: transform 0.2s ease;
+    }
+
+    .bcp-card:hover .bcp-card__link {
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .bcp-card:hover .bcp-card__link i {
+      transform: translateX(4px);
+    }
+
+    /* ===== NEWSLETTER STRIP ===== */
+    .blog-newsletter {
+      margin-top: 72px;
+      border-radius: 24px;
+      padding: 60px 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      position: relative;
+      overflow: hidden;
+      background: var(--secondary);
+    }
+
+    .blog-newsletter::before {
+      content: "";
+      position: absolute;
+      right: -60px;
+      top: -60px;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      background: radial-gradient(circle,
+          rgba(232, 132, 42, 0.18) 0%,
+          transparent 70%);
+    }
+
+    .blog-newsletter::after {
+      content: "";
+      position: absolute;
+      left: 30%;
+      bottom: -80px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 1px solid rgba(232, 132, 42, 0.15);
+    }
+
+    .blog-newsletter__left {
+      position: relative;
+      z-index: 1;
+    }
+
+    .blog-newsletter__kicker {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 14px;
+    }
+
+    .blog-newsletter__title {
+      font-size: clamp(26px, 2.5vw, 34px);
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.12;
+      letter-spacing: -0.03em;
+      max-width: 16ch;
+    }
+
+    .blog-newsletter__right {
+      position: relative;
+      z-index: 1;
+      flex-shrink: 0;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 12px;
+    }
+
+    .newsletter-form input {
+      width: 280px;
+      padding: 14px 20px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.08);
+      color: #ffffff;
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .newsletter-form input::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    .newsletter-form input:focus {
+      border-color: rgba(232, 132, 42, 0.5);
+    }
+
+    /* ===== TAGS SIDEBAR STRIP ===== */
+    .blog-topics-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 48px;
+    }
+
+    .topic-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 18px;
+      border-radius: 999px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.22s;
+    }
+
+    .topic-chip:hover {
+      background: rgba(232, 132, 42, 0.1);
+      border-color: rgba(232, 132, 42, 0.3);
+      color: var(--primary-dark);
+    }
+
+    .topic-chip i {
+      font-size: 11px;
+      color: var(--primary);
+    }
+
+    /* ===== LIST VIEW CARDS ===== */
+    .blog-list-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+
+    .bls-card {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 28px;
+      border-radius: 18px;
+      border: 1px solid var(--border-color);
+      background: var(--bg-card);
+      box-shadow: 0 4px 20px rgba(26, 26, 46, 0.05);
+      overflow: hidden;
+      transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    }
+
+    .bls-card:hover {
+      transform: translateX(6px);
+      box-shadow: 0 10px 40px rgba(26, 26, 46, 0.1);
+    }
+
+    .bls-card__media {
+      overflow: hidden;
+      background: #1a2036;
+    }
+
+    .bls-card__media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .bls-card:hover .bls-card__media img {
+      transform: scale(1.07);
+    }
+
+    .bls-card__body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 28px 28px 28px 0;
+    }
+
+    .bls-card__tag {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .bls-card__title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+
+    .bls-card__excerpt {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.72;
+      margin-bottom: 18px;
+    }
+
+    .bls-card__meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--text-light);
+    }
+
+    .bls-card__meta i {
+      color: var(--primary);
+      font-size: 11px;
+    }
+
+    /* Numbered badge on list cards */
+    .bls-card__num {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--primary);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(232, 132, 42, 0.4);
+    }
+
+    .bls-card__media {
+      position: relative;
+    }
+
+    /* ===== CTA BANNER ===== */
+    .cta-banner {
+      position: relative;
+      padding: 100px 0;
+      overflow: hidden;
+      background: var(--secondary);
+    }
+
+    [data-theme="light"] .cta-banner {
+      background: linear-gradient(135deg,
+          var(--primary-dark) 0%,
+          var(--primary) 60%,
+          var(--primary-light) 100%);
+    }
+
+    .cta-banner__overlay {
+      position: absolute;
+      inset: 0;
+    }
+
+    /* ===== SCROLL REVEAL ===== */
+    .reveal {
+      opacity: 0;
+      transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+    }
+
+    .reveal--up {
+      transform: translateY(36px);
+    }
+
+    .reveal.revealed {
+      opacity: 1;
+      transform: translate(0);
+    }
+
+    /* ===== DARK MODE ADJUSTMENTS ===== */
+    [data-theme="dark"] .blog-newsletter {
+      background: #0e1220;
+      border: 1px solid rgba(232, 132, 42, 0.12);
+    }
+
+    [data-theme="dark"] .blog-premium {
+      background: var(--bg-primary);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .blog-hero-feature {
+        grid-template-columns: 1fr;
+        min-height: 0;
+      }
+
+      .bhf__media {
+        min-height: 320px;
+      }
+
+      .bhf__body {
+        padding: 36px 36px;
+      }
+
+      .blog-card-grid-premium {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .blog-newsletter {
+        flex-direction: column;
+        padding: 44px;
+      }
+
+      .newsletter-form input {
+        width: 220px;
+      }
+
+      .bls-card {
+        grid-template-columns: 200px 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .page-banner {
+        min-height: 320px;
+        padding: 100px 0 60px;
+      }
+
+      .page-banner__decor--ring,
+      .page-banner__decor--ring2,
+      .page-banner__decor--dot {
+        display: none;
+      }
+
+      .blog-secondary-row {
+        grid-template-columns: 1fr;
+      }
+
+      .blog-card-grid-premium {
+        grid-template-columns: 1fr;
+      }
+
+      .bls-card {
+        grid-template-columns: 1fr;
+      }
+
+      .bls-card__body {
+        padding: 20px;
+      }
+
+      .blog-newsletter {
+        padding: 36px 28px;
+      }
+
+      .newsletter-form {
+        flex-direction: column;
+      }
+
+      .newsletter-form input {
+        width: 100%;
+      }
+
+      .bhf__body {
+        padding: 28px 24px;
+      }
+
+      .blog-section-head {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Pre Header -->
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="header__logo">
+        <img src="assets/images/logo.png" alt="DRON ADS Pvt. Ltd." width="180" height="60" />
+      </a>
+      <nav class="header__nav" id="mainNav">
+        <div class="nav__pill">
+          <ul class="nav__list">
+            <li><a href="about.html" class="nav__link">About</a></li>
+            <li class="nav__dropdown nav__mega">
+              <a href="services.html" class="nav__link">Services <i class="fa-solid fa-chevron-down"></i></a>
+              <div class="mega-menu">
+                <div class="mega-menu__col">
+                  <h4 class="mega-menu__heading">Outdoor Advertising</h4>
+                  <ul>
+                    <li><a href="hoardings.html">Large Format Hoardings</a></li>
+                    <li><a href="unipoles.html">Unipoles</a></li>
+                    <li><a href="gantries.html">Gantries</a></li>
+                    <li><a href="kiosks.html">Kiosks</a></li>
+                    <li><a href="bqs.html">BQS</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__col">
+                  <h4 class="mega-menu__heading">Transit &amp; Media</h4>
+                  <ul>
+                    <li><a href="gsrtc.html">GSRTC Branding</a></li>
+                    <li><a href="city-bus.html">City Bus Branding</a></li>
+                    <li><a href="cab-branding.html">Cab Branding</a></li>
+                    <li><a href="demo-van.html">Demo Van</a></li>
+                    <li><a href="led-van.html">LED Van</a></li>
+                    <li><a href="tricycle.html">Tricycle</a></li>
+                    <!-- <li><a href="rural.html">Rural Branding</a></li> -->
+                  </ul>
+                </div>
+                <div class="mega-menu__col">
+                  <h4 class="mega-menu__heading">Digital Solutions</h4>
+                  <ul>
+                    <li><a href="branding.html">Branding &amp; Identity</a></li>
+                    <li><a href="brand-strategy.html">Brand Strategy</a></li>
+                    <li><a href="digital-marketing.html">Social Media Marketing</a></li>
+                    <li><a href="google-ads.html">Google Ads</a></li>
+                    <li><a href="seo.html">Search Engine Optimization (SEO)</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu__col">
+                  <h4 class="mega-menu__heading">Branding &amp; Events</h4>
+                  <ul>
+                    <li><a href="events.html">Event Management</a></li>
+                    <li><a href="corporate-gifting.html">Corporate Gifting</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li><a href="blog.html" class="nav__link">Blog</a></li>
+            <li><a href="contact.html" class="nav__link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="contact.html" class="header__cta">Get a Quote</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE BANNER -->
+  <section class="page-banner">
+    <div class="page-banner__bg-pattern" style="
+          background-image: url('assets/images/Digital_Solution/Digital marketing.jpg.jpeg');
+        "></div>
+    <div class="page-banner__overlay"></div>
+    <div class="page-banner__decor page-banner__decor--ring"></div>
+    <div class="page-banner__decor page-banner__decor--ring2"></div>
+    <div class="page-banner__decor page-banner__decor--dot"></div>
+    <div class="container">
+      <div class="page-banner__content">
+        <div class="page-banner__eyebrow">Insights &amp; Stories</div>
+        <h1 class="page-banner__title">
+          Ideas That<br /><span>Drive</span> Growth
+        </h1>
+        <p class="page-banner__subtitle">
+          Practical insights on outdoor advertising, digital growth, transit
+          branding, and campaign strategy from the DRON ADS team.
+        </p>
+        <nav class="page-banner__breadcrumb" aria-label="breadcrumb">
+          <a href="index.html">Home</a>
+          <i class="fa-solid fa-chevron-right"></i>
+          <span>Blog</span>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG MAIN -->
+  <section class="blog-premium">
+    <div class="container">
+      <!-- LIST STACK — "Trending" -->
+      <div class="blog-section-head reveal reveal--up" style="margin-top: 64px">
+        <div class="blog-section-head__left">
+          <div class="kicker">Trending Now</div>
+          <h2>Quick Reads Worth Your Time</h2>
+        </div>
+      </div>
+
+      <div class="blog-list-stack">
+        <article class="bls-card reveal reveal--up" data-category="outdoor">
+          <div class="bls-card__media">
+            <img src="assets/images/Hording photo/ChatGPT Image Feb 14, 2026, 06_44_42 PM.png"
+              alt="Outdoor advertising billboard" loading="lazy" />
+            <div class="bls-card__num">01</div>
+          </div>
+          <div class="bls-card__body">
+            <div class="bls-card__tag">Outdoor Strategy</div>
+            <h3 class="bls-card__title">
+              How Outdoor and Digital Campaigns Work Better Together
+            </h3>
+            <p class="bls-card__excerpt">
+              Align your offline and online presence to maximize every
+              impression and convert awareness into action.
+            </p>
+            <div class="bls-card__meta">
+              <span><i class="fa-regular fa-clock"></i> 6 min read</span>
+              <span><i class="fa-regular fa-calendar"></i> Feb 2026</span>
+              <a href="blog-detail.html" style="
+                    color: var(--primary);
+                    font-weight: 600;
+                    font-size: 13px;
+                  ">Read Now →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="bls-card reveal reveal--up" data-category="digital" style="transition-delay: 0.05s">
+          <div class="bls-card__media">
+            <img src="assets/images/Digital_Solution/google ads.jpg.jpeg" alt="Google search ads strategy"
+              loading="lazy" />
+            <div class="bls-card__num">02</div>
+          </div>
+          <div class="bls-card__body">
+            <div class="bls-card__tag">Google Ads</div>
+            <h3 class="bls-card__title">
+              Why Search Ads Perform Better After Strong Offline Visibility
+            </h3>
+            <p class="bls-card__excerpt">
+              Warmer audiences, lower CPCs, and higher CTRs — real-world
+              presence has measurable digital lift.
+            </p>
+            <div class="bls-card__meta">
+              <span><i class="fa-regular fa-clock"></i> 4 min read</span>
+              <span><i class="fa-regular fa-calendar"></i> Jan 2026</span>
+              <a href="blog-detail.html" style="
+                    color: var(--primary);
+                    font-weight: 600;
+                    font-size: 13px;
+                  ">Read Now →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="bls-card reveal reveal--up" data-category="branding" style="transition-delay: 0.1s">
+          <div class="bls-card__media">
+            <img src="assets/images/Digital_Solution/Brand Identity.jpg.jpeg" alt="Brand identity and visual system"
+              loading="lazy" />
+            <div class="bls-card__num">03</div>
+          </div>
+          <div class="bls-card__body">
+            <div class="bls-card__tag">Branding</div>
+            <h3 class="bls-card__title">
+              Why Visual Consistency Matters More Than Media Count
+            </h3>
+            <p class="bls-card__excerpt">
+              A unified identity across touchpoints builds recall faster than
+              spreading budget across disconnected channels.
+            </p>
+            <div class="bls-card__meta">
+              <span><i class="fa-regular fa-clock"></i> 5 min read</span>
+              <span><i class="fa-regular fa-calendar"></i> Dec 2025</span>
+              <a href="blog-detail.html" style="
+                    color: var(--primary);
+                    font-weight: 600;
+                    font-size: 13px;
+                  ">Read Now →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-banner__overlay"></div>
+    <div class="container">
+      <div class="cta-banner__content reveal reveal--up">
+        <h2 class="cta-banner__title">Ready to Turn Insights into Action?</h2>
+        <p class="cta-banner__text">
+          Let us build a campaign that combines outdoor visibility, smart
+          digital targeting, and measurable brand impact.
+        </p>
+        <div class="cta-banner__buttons">
+          <a href="contact.html" class="btn btn--white btn--lg">Talk to Our Team</a>
+          <a href="blog-detail.html" class="btn btn--outline-white btn--lg"><i class="fa-solid fa-book-open"></i> Read
+            Featured Post</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER SECTION ===================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <!-- Footer CTA -->
+      <div class="footer__cta-new">
+        <div class="footer__cta-hand">👋</div>
+        <h2>Have a project in mind?</h2>
+        <div class="footer__cta-btn-wrap">
+          <a href="contact.html" class="footer__cta-red">Let's Talk...!</a>
+          <div class="footer__cta-note">
+            <svg viewBox="0 0 100 50" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M10,40 Q50,0 90,40" />
+              <path d="M80,30 L90,40 L80,50" />
+            </svg>
+            <p>We get booked fast🔥<br>contact us now</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Brand & Mascot -->
+      <div class="footer__brand-grid">
+        <div class="footer__brand-left">
+          <img src="assets/images/logo.png" alt="DRON ADS" class="footer__logo" />
+          <p>DRON ADS Pvt. Ltd. is a leading full-service advertising agency in Gujarat, offering innovative outdoor
+            media, digital marketing, and strategic branding solutions. We are dedicated to helping brands reach their
+            full potential through creative storytelling and results-driven advertising.</p>
+          <div class="social-icons-footer">
+            <a href="https://www.facebook.com/share/1DUQfcNNzL/?mibextid=wwXIfr" target="_blank"
+              aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/company/106942221/admin/dashboard/" target="_blank"
+              aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/dronads?igsh=MXRqaDBiZWp3M2o2bQ%3D%3D&utm_source=qr" target="_blank"
+              aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="brand-featured-mascot">
+          <img src="assets/images/footer.png" alt="Lord Parshuram" />
+          <h4>India's Most Loved Advertising Agency<br>by US, APAC & GCC Clients</h4>
+        </div>
+      </div>
+
+      <!-- Links & Industries -->
+      <div class="footer__links-main">
+        <div class="footer__links-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="blog.html">Latest Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__links-col">
+          <h4>Our Services</h4>
+          <div class="industries-grid">
+            <ul>
+              <li><a href="hoardings.html">Large Format Hoardings</a></li>
+              <li><a href="unipoles.html">Unipoles</a></li>
+              <li><a href="gantries.html">Gantries</a></li>
+              <li><a href="bqs.html">BQS Ads</a></li>
+              <li><a href="kiosks.html">Kiosks</a></li>
+            </ul>
+            <ul>
+              <li><a href="digital-marketing.html">Social Media</a></li>
+              <li><a href="google-ads.html">Google Ads</a></li>
+              <li><a href="seo.html">Search Engine Optimization (SEO)</a></li>
+              <li><a href="gsrtc.html">GSRTC Branding</a></li>
+              <li><a href="city-bus.html">City Bus</a></li>
+              <li><a href="cab-branding.html">Cab Branding</a></li>
+              <!-- <li><a href="rural.html">Rural Marketing</a></li> -->
+            </ul>
+            <ul>
+              <li><a href="demo-van.html">Demo Van</a></li>
+              <li><a href="led-van.html">LED Van</a></li>
+              <li><a href="tricycle.html">Tricycle</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="corporate-gifting.html">Gifting</a></li>
+              <li><a href="services.html">All Services</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer__bottom-final">
+        <p>&copy; <span id="currentYear"></span> DRON ADS Pvt. Ltd. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/917600888624?text=Hi%20DRON%20ADS%2C%20I%20want%20to%20discuss%20a%20campaign."
+    class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-btn__tooltip">Chat with us</span>
+  </a>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="assets/js/script.js"></script>
+  <script>
+    // === SCROLL PROGRESS ===
+    const progressBar = document.getElementById("scrollProgress");
+    window.addEventListener(
+      "scroll",
+      () => {
+        const scrolled =
+          (window.scrollY /
+            (document.body.scrollHeight - window.innerHeight)) *
+          100;
+        if (progressBar) progressBar.style.width = scrolled + "%";
+      },
+      { passive: true },
+    );
+
+    // === FILTER POSTS ===
+    function filterPosts(cat, btn) {
+      document
+        .querySelectorAll(".filter-btn")
+        .forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      document.querySelectorAll("[data-category]").forEach((card) => {
+        if (cat === "all" || card.dataset.category === cat) {
+          card.style.opacity = "1";
+          card.style.transform = "";
+          card.style.pointerEvents = "";
+        } else {
+          card.style.opacity = "0.25";
+          card.style.transform = "scale(0.97)";
+          card.style.pointerEvents = "none";
+        }
+        card.style.transition = "opacity 0.3s ease, transform 0.3s ease";
+      });
+    }
+
+    // === NEWSLETTER ===
+    function handleNewsletter(e) {
+      e.preventDefault();
+      const input = e.target.querySelector("input");
+      const btn = e.target.querySelector("button");
+      btn.textContent = "✓ Subscribed!";
+      btn.style.background = "#1a7a4a";
+      input.value = "";
+      setTimeout(() => {
+        btn.innerHTML = 'Subscribe <i class="fa-solid fa-paper-plane"></i>';
+        btn.style.background = "";
+      }, 3000);
+    }
+
+    // === FOOTER YEAR ===
+    const yearEl = document.getElementById("currentYear");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // === SCROLL REVEAL ===
+    const revealObs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("revealed");
+            revealObs.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1, rootMargin: "0px 0px -40px 0px" },
+    );
+
+    document
+      .querySelectorAll(".reveal")
+      .forEach((el) => revealObs.observe(el));
+
+    // === HEADER SCROLL ===
+    const header = document.getElementById("header");
+    window.addEventListener(
+      "scroll",
+      () => {
+        header?.classList.toggle("scrolled", window.scrollY > 60);
+      },
+      { passive: true },
+    );
+
+    // === SCROLL TOP ===
+    const scrollTopBtn = document.getElementById("scrollTop");
+    window.addEventListener(
+      "scroll",
+      () => {
+        scrollTopBtn?.classList.toggle("visible", window.scrollY > 400);
+      },
+      { passive: true },
+    );
+    scrollTopBtn?.addEventListener("click", () =>
+      window.scrollTo({ top: 0, behavior: "smooth" }),
+    );
+
+    // === HAMBURGER ===
+    const hamburger = document.getElementById("hamburger");
+    const nav = document.getElementById("mainNav");
+    hamburger?.addEventListener("click", () => {
+      hamburger.classList.toggle("active");
+      nav?.classList.toggle("open");
+    });
+
+    // === THEME TOGGLE ===
+    const themeToggle = document.getElementById("themeToggle");
+    const themeIcon = document.getElementById("themeIcon");
+    function applyTheme(theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      localStorage.setItem("dronads-theme", theme);
+      if (themeIcon) {
+        themeIcon.className =
+          theme === "dark" ? "fa-solid fa-sun" : "fa-solid fa-moon";
+      }
+    }
+    themeToggle?.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme");
+      applyTheme(current === "dark" ? "light" : "dark");
+    });
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    if (themeIcon && currentTheme === "dark")
+      themeIcon.className = "fa-solid fa-sun";
+
+    // === MOBILE MEGA MENU ===
+    document.querySelectorAll(".nav__mega > .nav__link").forEach((link) => {
+      link.addEventListener("click", (e) => {
+        if (window.innerWidth <= 768) {
+          e.preventDefault();
+          link.parentElement.classList.toggle("open");
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

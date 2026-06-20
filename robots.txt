@@ -1,0 +1,14 @@
+# DRON ADS Pvt. Ltd. — robots.txt
+# https://www.dronads.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas (none currently)
+# Disallow: /admin/
+
+# Sitemap
+Sitemap: https://www.dronads.com/sitemap.xml
+
+# Crawl-delay (optional, for polite crawling)
+Crawl-delay: 1

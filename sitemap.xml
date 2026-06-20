@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.dronads.com/</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Core Pages -->
+    <url>
+        <loc>https://www.dronads.com/about.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/services.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/contact.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/blog.html</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/blog-detail.html</loc>
+        <lastmod>2026-03-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Outdoor Advertising Services -->
+    <url>
+        <loc>https://www.dronads.com/hoardings.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/unipoles.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/gantries.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/kiosks.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/bqs.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Transit & Rural Services -->
+    <url>
+        <loc>https://www.dronads.com/gsrtc.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/rural.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Digital Solutions -->
+    <url>
+        <loc>https://www.dronads.com/digital-marketing.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/google-ads.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/seo.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Branding & Events -->
+    <url>
+        <loc>https://www.dronads.com/branding.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/events.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.dronads.com/corporate-gifting.html</loc>
+        <lastmod>2026-02-13</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>

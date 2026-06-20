@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A2036;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2A3050;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad2)"/>
+  <rect x="50" y="50" width="700" height="500" fill="none" stroke="#E8842A" stroke-width="3"/>
+  <circle cx="100" cy="100" r="8" fill="#E8842A"/>
+  <circle cx="700" cy="100" r="8" fill="#E8842A"/>
+  <circle cx="100" cy="550" r="8" fill="#E8842A"/>
+  <circle cx="700" cy="550" r="8" fill="#E8842A"/>
+  <text x="400" y="220" font-size="52" font-weight="bold" fill="#E8842A" text-anchor="middle" font-family="Arial">City Center</text>
+  <text x="400" y="320" font-size="32" fill="rgba(232,132,42,0.7)" text-anchor="middle" font-family="Arial">Premium Display</text>
+  <rect x="200" y="400" width="400" height="80" fill="none" stroke="rgba(232,132,42,0.4)" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="450" font-size="24" fill="rgba(232,132,42,0.6)" text-anchor="middle" font-family="Arial">Ahmedabad Commercial Hub</text>
+</svg>
