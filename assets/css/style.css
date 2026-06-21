@@ -97,7 +97,7 @@
 }
 
 [data-theme="dark"] .about__logo-display {
-  filter: invert(1) hue-rotate(180deg) saturate(1.3) brightness(1.05);
+  /* filter: invert(1) hue-rotate(180deg) saturate(1.3) brightness(1.05); */
 }
 
 /* ========== RESET & BASE ========== */
@@ -1058,10 +1058,10 @@ textarea {
 .page-banner {
   position: relative;
   /* min-height: 200px; */
-  padding: 110px 0 40px;
+  padding: 110px 0 0px;
   background-color: var(--secondary);
   background-image: var(--page-banner-image);
-  background-position: 70% center;
+  background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -1211,6 +1211,7 @@ textarea {
 
 .about__logo-display {
   width: 100%;
+  height: 100%;
   /* opacity: 0.5; */
   transition: filter var(--transition-base);
 }
@@ -3261,6 +3262,7 @@ a.service-card:hover {
   align-items: center;
   gap: 8px;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 14px;
 }
 
@@ -3836,6 +3838,7 @@ body {
   background-color: var(--secondary);
   background-image: var(--page-banner-image);
   background-position: center;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -4839,6 +4842,7 @@ body {
   /* Page Banner */
   .page-banner {
     min-height: 300px;
+    background-position: right center;
     padding: 84px 0 56px;
   }
 
